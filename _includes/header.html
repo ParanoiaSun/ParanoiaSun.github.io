@@ -1,0 +1,14 @@
+
+		<header class="index-header">
+			<nav>
+				{% for link in site.navigation %}
+                <a href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a>
+                {% endfor %}
+			</nav>
+		</header>
+		<div class="page-header">	
+			<div class="blog-title">
+				<h1>CLINIC</h1>
+				<h2>SELF-HEALING</h2>
+			</div>
+		</div>

@@ -1,0 +1,26 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:"Microsoft Yahei","Pingfang SC","Helvetica Neue",Helvetica,Arial,"Lucida Grande",Dengl,"等线 Light",Arial;
+	background-color:#fefff6;
+	height:100%;
+	width:100%
+}
+
+.index-header nav a{
+	text-decoration:none;
+	display:inline-block;
+	color:#fff;font-weight:lighter;
+	margin-left:20px;font-size:1rem
+	}
+
+.index-header nav a:hover{color:#b7b7b7}
+
+h1{margin:0;text-align:center;color:#fff;font-weight:lighter;font-size:3.1rem;letter-spacing:0.5rem}
+
+h2{margin:0;text-align:center;color:#fff;font-weight:lighter;font-size:1rem;letter-spacing:0.1rem}
+
+nav{text-align:right;font:Arial}
+
+footer{font-family:Arial,"Microsoft Yahei","Pingfang SC";font-weight:lighter;font-size:0.1rem;text-align:center;color:#717171;letter-spacing:0.1rem;word-spacing:0.2rem}.index-header{padding:30px 0 0 0;padding-left:50px;padding-right:50px}.page-header{height:550px;background-size:cover;background-color:#c2c0b2;background-image:url(../../images/home-bg.jpg);background-position:center;background-repeat:no-repeat;text-align:center}.blog-title{padding-top:220px}.index-footer{margin:auto;padding:auto;padding-top:75px;width:200px;height:50px}footer div{margin:0}footer hr{margin:0}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,121 @@
+
+@charset "utf-8";
+
+$background:url(../images/photo.jpg);
+$text-weight:normal;
+$background-color: #fefff6;
+
+@font-face
+{
+font-family: PingFang;
+src: url('PingFang.ttc');
+     //url('Sansation_Light.eot'); /* IE9+ */
+}
+
+@mixin text-center(){
+	text-align: center;
+}
+
+@mixin text-style(){
+	color:#fff;
+	font-weight: $text-weight;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: PingFang;
+	background-color: $background-color;
+	height:100%;
+	weight:100%;
+	/* background-color: #123; */
+}
+
+h1{
+	margin: 0;
+	text-align: center;
+	@include text-style();
+	font-size: 4rem;
+	letter-spacing: 0.5rem;
+
+}
+
+h2{
+	margin: 0;
+	text-align: center;
+	@include text-style();
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+}
+
+nav{ 
+	padding-right: 20px;
+	text-align: right;
+	font: Arial;
+}
+
+footer{
+	font-family:PingFang;
+	font-weight: $text-weight;
+	font-size: 0.1rem;
+	text-align: center;
+	color:#717171;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.2rem;
+}
+
+.index-header{
+	display: block;
+	position: fixed;
+	width: 100%;
+	background-color: #3C4F5C;
+	background-color: rgba(60,79,92,0.28);
+	padding: 15px 0 10px 0;
+	nav a{
+	text-decoration: none;
+	display: inline-block;
+	@include text-style();
+	margin-left: 20px;
+	font-size: 1rem;
+	}
+	nav a:hover{
+	color: #b7b7b7;
+	border-width: 0 0 2px 0;
+	border-color: white;
+	}
+}
+
+.page-header{
+	height: 550px;
+    background-size: cover;
+    background-color: #c2c0b2;
+    background-image: url(../images/background.png);
+    // -webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
+    // filter: grayscale(50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.blog-title{
+	padding-top: 240px;
+}
+
+.index-footer{
+	position:relative;
+    top:15px;
+    left:20px; 
+	margin: auto;
+	padding : auto;
+	padding-top: 75px;
+	width: 200px;
+	height: 50px;
+}
+
+footer div{
+	margin: 0;
+}
+
+footer hr{
+	margin: 0;
+}
