@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: PingFang;
   src: url("PingFang.ttc"); }
@@ -71,11 +72,8 @@ footer {
   padding-top: 240px; }
 
 .index-footer {
-  position: relative;
-  top: 15px;
-  left: 20px;
-  margin: auto;
-  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 75px;
   width: 400px;
   height: 50px; }
@@ -85,5 +83,167 @@ footer div {
 
 footer hr {
   margin: 0; }
+
+.about-me {
+  margin-left: auto;
+  margin-right: auto;
+  width: 728px;
+  height: 300px;
+  margin-top: 100px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px #c5c5c5; }
+
+.about-me img {
+  margin: 40px 0 0 50px;
+  float: left; }
+
+.self-introduction {
+  font-family: "Apple Chancery";
+  text-align: center;
+  width: 400px;
+  height: 250px;
+  margin: 0 0 0 250px;
+  padding-top: 10px; }
+
+.self-introduction .aboutme {
+  margin-top: 50px;
+  font-weight: lighter; }
+  .self-introduction .aboutme span {
+    font-size: 1.2rem; }
+
+.self-introduction .introduction-content {
+  font-family: "Pingfang SC";
+  margin-top: 30px;
+  font-size: 0.8rem; }
+  .self-introduction .introduction-content p {
+    line-height: 20px; }
+
+.about-links {
+  width: 300px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .about-links img {
+    width: 45px;
+    height: 43px;
+    padding-left: 2.5px;
+    padding-top: 3px; }
+
+.link-block {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  height: 50px; }
+  .link-block div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px #c5c5c5;
+    transition: 0.5s; }
+
+.link-block div:hover {
+  transform: scale(1.1); }
+
+.blog-block {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  box-shadow: 0px 0px 20px #c5c5c5;
+  width: 756px;
+  height: 220px;
+  transition: 0.5s; }
+  .blog-block div {
+    vertical-align: top;
+    display: inline-block; }
+
+.blog-general {
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  height: 220px; }
+
+.general-wrap {
+  font-family: "Pingfang SC";
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  height: 220px; }
+  .general-wrap div {
+    padding: 0 30px 0 50px;
+    display: block; }
+
+.blog-block:hover {
+  transform: scale(1.01); }
+
+.blog-block-title {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-family: "Pingfang SC"; }
+
+.blog-time {
+  font-size: 0.8rem;
+  color: #7d7d7d; }
+
+.blog-img {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 220px; }
+
+.blog-description {
+  font-size: 0.75rem;
+  color: #535353; }
+
+.blog-img img {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 220px; }
+
+.friend-line {
+  margin-top: 150px;
+  width: 740px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto; }
+  .friend-line .friend-block-border {
+    vertical-align: top;
+    display: inline-block;
+    width: 240px;
+    height: 220px; }
+    .friend-line .friend-block-border .friend-block {
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      height: 220px;
+      background-color: #fff;
+      box-shadow: 0px 0px 30px #c5c5c5;
+      transition: 0.5s; }
+      .friend-line .friend-block-border .friend-block div {
+        display: inline-block; }
+    .friend-line .friend-block-border .friend-block:hover {
+      transform: scale(1.05); }
+
+.friend-img img {
+  width: 200px;
+  height: 180px; }
+
+.friend-name {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  text-align: center; }
+  .friend-name p {
+    margin: 0px;
+    text-decoration: none;
+    font-family: "行楷-简","Apple Chancery";
+    color: #000; }
 
 /*# sourceMappingURL=main.css.map */
