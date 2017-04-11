@@ -2,27 +2,33 @@
 layout: base
 title: JOURNAL
 ---
-<br>
-<div class="blog-block">
+
+{% for post in site.posts %}
+<div class="blog-block" >
+	<a href="{{ post.url | prepend : site.baseurl }}">
 	<div class="blog-general">
 		<div class="general-wrap">
 			<div class="blog-block-title">
-				<p>关于mac的两三事</p>
+				<p>{{ post.b-title }}</p>
 			</div>
 			<div class="blog-time">
-				<p>-2016&nbspSep&nbsp28-</p>
+				<p>{{ post.date | date_to_string }}</p>
 			</div>
 			<div class="blog-description">
-				<p>上了大学才知道电脑的便捷的重要性，喜欢打游戏的我就想着
-					买个大屏性能好的笔记本。后来每天拎着这笨重的笔记本指节
-				那边都有像茧子一样的痕迹了。</p>
+				<p>{{ post.description }}</p>
 			</div>
 		</div>
 	</div>
+	</a>
 	<div class="blog-img">
 		<img src="../images/blog-img1.png" alt="">
 	</div>
 </div>
+<!-- 
+<br>
+<a href="{{ post.url | prepend : site.baseurl }}">{{ post.title }}</a> -->
+{% endfor %}
+
 
 <!-- <p>{{ posts.size }}</p>
 <br>

@@ -332,5 +332,13 @@ footer hr{
 	}
 }
 
+//post
+.blog-content{
+	width: 900px;
+	margin-top: 70px;
+	@include div-center();
+	
+}
+
 
 

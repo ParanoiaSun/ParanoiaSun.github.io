@@ -1,3 +1,17 @@
 ---
 layout: base
 ---
+<div class="blog-content-bg">
+	<div class="blog-content">
+		<div class="blog-content-title">
+			<p>{{ page.b-title}}</p>
+		</div>
+		<div class="blog-content-time">
+			<p>{{ page.date | date_to_string }}</p>
+		</div>
+		<hr>
+		<div class="blog-content-passage">
+			<p>{{ content }}</p>
+		</div>
+	</div>
+</div>

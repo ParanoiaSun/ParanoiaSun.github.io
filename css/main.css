@@ -185,6 +185,10 @@ footer hr {
   margin-top: 30px;
   font-size: 1.2rem;
   font-family: "Pingfang SC"; }
+  .blog-block-title p{
+    text-decoration: none;
+    color: #000;
+  }
 
 .blog-time {
   font-size: 0.8rem;
@@ -245,5 +249,44 @@ footer hr {
     text-decoration: none;
     font-family: "行楷-简","Apple Chancery";
     color: #000; }
+
+.blog-content-bg{
+  width: 850px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+  box-shadow: 0px 0px 20px #c5c5c5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-content{
+  padding-top: 70px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.blog-content-title{
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+.blog-content-time{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #7d7d7d;
+}
+
+.blog-content-passage{
+  margin-top: 30px;
+  color: #565656;
+  line-height: 1.8rem;
+}
+
+.blog-content-passage div{
+  text-align:center;
+}
+
 
 /*# sourceMappingURL=main.css.map */
