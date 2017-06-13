@@ -2,7 +2,7 @@
 layout: post
 title: CLINIC
 b-title:  读《撒野》有感
-description: 最近就是挺感慨，想想自己入手了MacBook以后生活真的变了很多，就想写点东西记录一下最近的改变。
+description: 最近就球的文章看的特别多，她的文章看完我就经常我去想，一方面是关于生活，另一方面是关于谈恋爱。
 thumbnail: /images/blog-img1.png
 ---
 
